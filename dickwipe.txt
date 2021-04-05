@@ -63,17 +63,17 @@ end
   	   
 local vars = {  	   
 	["ESP"] = {  	   
-		{"2D Box", 1, 1},  	   
+		{"2D Box", 0, 1},  	   
 		{"Healthbar", 1, 1},  	   
 		{"3D Box", 0, 1},  	   
-		{"Skeleton", 0, 1},  	   
+		{"Skeleton", 1, 1},  	   
 		{"Name", 1, 1},  	   
 		{"Health", 1, 1},  	   
 		{"Distance", 1, 1},		  	   
 		{"Rank", 1, 1},  	   
 	},  	   
 	["Misc."] = {  	   
-		{"Thirdperson", 1, 1},  	   
+		{"Thirdperson", 0, 1},  	   
 		{"Thirdperson D.", 13},  	   
 		{"Chatspam", 0, 3, "1 = Troll | 2 = Error | 3 = Error"},  	   
 		{"Quakesounds", 0, 1},  	   
@@ -98,7 +98,7 @@ local vars = {
 	["Visuals"] = {  	   
 		{"Autism", 0, 1},  	   
 		{"Crosshair", 1, 1},  	   
-		{"Chams", 1, 1},  	   
+		{"Chams", 0, 1},  	   
 		{"No Hands", 0, 1},  	   
 		{"No Sky", 0, 1},  	   
 	},  	   
